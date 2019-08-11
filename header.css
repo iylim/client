@@ -1,0 +1,20 @@
+header {
+  background-color: #2b3039;
+  padding: 10px 2rem;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+
+  transition: color 250ms;
+}
+
+header a:hover {
+  color: #b48ead;
+}

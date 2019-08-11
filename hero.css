@@ -1,0 +1,29 @@
+#hero {
+  height: 50vh;
+  min-height: 300px;
+  padding: 50px;
+  background: linear-gradient(
+      hsla(311, 20%, 13%, 0.75),
+      hsla(311, 20%, 13%, 0.75)
+    ),
+    url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frajatbhageria%2Ffiles%2F2017%2F09%2Fcode-copy-1200x1200.jpg);
+  background-size: cover;
+
+  color: white;
+
+  text-align: center;
+}
+
+#hero h1 {
+  margin-bottom: 1rem;
+
+  font-size: 5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#hero h2 {
+  max-width: 600px;
+  margin: auto;
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}

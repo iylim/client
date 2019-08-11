@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import "./reset.css";
+@import "./header.css";
+@import "./hero.css";
+
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsla(240, 1%, 50%, 1);
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.info-block {
+  padding: 45px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 45px;
+}
+
+.info-block:nth-child(2n + 1) {
+  background-color: #ececed;
+}
+
+.info-block:nth-child(2n) {
+  background-color: #c0c5ce;
+}
+
+.info-block img {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.competitors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 200px;
+}
+
+.competitors h2 {
+  /* grid-column-start: 1; */
+  /* grid-column-end: 3; */
+  grid-column: span 2;
+}
