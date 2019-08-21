@@ -1,0 +1,32 @@
+/* navigation */
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: var(--snips-black);
+
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: var(--snips-white);
+}
+
+/* header styling */
+header {
+  padding: 1rem 2rem;
+  background-color: var(--snips-gray);
+}
+
+
+.default-header {
+  background-color: var(--snips-gray);
+}
+
+/* TODO: */
+/* footer styling */
+
+

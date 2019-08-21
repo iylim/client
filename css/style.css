@@ -2,11 +2,45 @@
 
 @import 'palette.css';
 @import 'resets.css';
-@import 'header.css';
+@import 'navigation.css';
 @import 'hero.css';
 @import 'snippets.css';
 @import 'search.css';
 
 html {
   font-family: 'Montserrat', sans-serif;
+}
+
+.info-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+
+.info-block img {
+  width: 100%;
+}
+
+.info-block p {
+  font-size: 20px;
+  padding: 0 2rem;
+  line-height: 2.2rem;
+}
+
+.info-block:nth-child(2n) {
+  background-color: var(--snips-gray);
+}
+
+.info-block:nth-child(2n +1) {
+  background-color: var(--snips-black);
+  color: var(--snips-white);
+}
+
+#competitors {
+  background-color: var(--snips-purple);
+}
+
+#competitors h2 {
+  padding: 2rem;
+  text-align: center;
 }
